@@ -9,7 +9,7 @@ public static class ChatApi
     {
         app.MapPost("/api/chat", async (ChatRequest req) =>
         {
-            var apiKey = "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"; // 🔥 حط المفتاح هون
+            var apiKey = "YOUR_API_KEY"; // 🔥 حط المفتاح هون
 
             var client = new HttpClient();
             client.Timeout = TimeSpan.FromSeconds(15);
